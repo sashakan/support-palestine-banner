@@ -1,4 +1,4 @@
-[![StandWithPalestine](https://github.com/Safouene1/support-palestine-banner/blob/master/StandWithPalestine.svg)](https://github.com/Safouene1/support-palestine-banner)
+[![ایستادن با فلسطین](https://github.com/Safouene1/support-palestine-banner/blob/master/StandWithPalestine.svg)](https://github.com/Safouene1/support-palestine-banner)
 
 # بنر حمایت از فلسطین
 
@@ -23,7 +23,7 @@
   
 2. کد بنر مورد انتخاب را در پروژه خود داخل فایل README یا هر فایلی که Markdown را پشتیبانی میکنید کپی پیست کنید.
 
-3. برای نمایش بنر در سایت, please make sure to copy the HTML snippet from the "Website Banner Installation" section and paste it right after the opening `<body>` تگ در فایلHTML e.
+3. برای نمایش بنر در سایت, لطفا مطمئن شوید که کد HTML از قسمت نصب بنر وبسایت کپی شده باشد و دقیقا بعد از باز شدن تگ `<body>` داخل آن پیست کنید.
 
 4.اگر دوست دارید لینک های داخل بنر پشتیبانی رو شخصی سازی کنید, به راحتی لینک خود را جایگزین لینک قبلی داخل کد کنید.
    
@@ -39,7 +39,7 @@
 [![StandWithPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/StandWithPalestine.svg)](https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md)
 ```
 
-### ReadMe Banner
+### بنر متنی
 
 <div align="center"><a href="https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md"><img src="https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg" alt="Support Palestine" style="width: 100%;"></a></div>
 
@@ -47,7 +47,7 @@
 <div align="center"><a href="https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md"><img src="https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg" alt="Support Palestine" style="width: 100%;"></a></div>
 ```
 
-### ReadMe Banner for Projects
+### بنر متنی برای پروژه ها
 
 <div align="center"><a href="https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md"><img src="https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-project.svg" alt="Support Palestine" style="width: 100%;"></a></div>
 
@@ -55,26 +55,26 @@
 <div align="center"><a href="https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md"><img src="https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-project.svg" alt="Support Palestine" style="width: 100%;"></a></div>
 ```
 
-# Banner Components for React ,NextJs 13, Vue (V2 & V3) with Tailwind
+# کامپوننت بنر برای React ,NextJs 13, Vue (V2 & V3) with Tailwind.
 
-### Sample of Mobile with dark mode
+### نمونه موبایل با دارک مود
 
 ![example images mobile dark mode](React-Components/example-images/mobile-dark-mode.png)
 
-### Sample of Desktop with light mode
+### نمونه دسکتاپ با لایت مود
 
 ![example images desktop light mode](React-Components/example-images/desktop-light-mode.png)
 
 این کامپوننت ها بیرون باکس پشتیبانی هستند
 
 |     | قابلیت ها                    |
-| --- | --------------------------- |
+| --- | ---------------------------زیر |
 | ✅  | جاوا اسکریپت                 |
 | ✅  | تایپ اسکریپت                 |
 | ✅  | کامپوننت های سرور           |
 | ✅  | ریسپانسیو                |
-| ✅  | Closeable                   |
-| ✅  | Position Sticky or Relative |
+| ✅  | قابل بستن                  |
+| ✅  | موقعیت ثابت یا نسبی  |
 
 اگر شما از Tailwind استفاده نمیکنید, این فایل Css را درون ریزی کنید: [banner.css](React-Components/banner.css)
 
@@ -82,19 +82,17 @@
 
 # نصب بنر وبسایت
 
-Use this snippet to show your support for Palestinians on the top of your website. Installing it takes minutes.
-
+از این تکه کد برای نمایش اینکه شما پشتیبان مردم فلسطین هستید در بالای وبسایت خود استفاده کنید. نصب آن 1 دقیقه طول میکشد.
 ![image](https://github.com/Safouene1/support-palestine-banner/assets/22036449/bfbfe6de-0e2f-4d6d-8e7e-fd47ea00ddf2)
 
-### About the Website Banner
+### درباره بنر وبسایت
 
-This code adds a small black banner on top of your website with Palestinian flag and support message. It links to islamic-relief's donation site but you can change the link to point to a support channel of your choice.
-
+این کد یک بنر مشکی کوچو بالای ووبسایت شما اضافه میکند که یک پرچم فلسطین و یک پیام پشتیبانی دارد. شما میتوانید به دلخواه لینک آن را برای موسسه های حامی فلسطین مانند ایران همدل یا خیریه حضرت خدیجه کبری قرار دهید.
 ![image](https://github.com/Safouene1/support-palestine-banner/assets/22036449/269d2610-7025-4b69-a3b1-00fbfc2a949a)
 
-### Installation Banner
+### نصب بنر
 
-Installation is dead simple. Just copy this code to your template right after the opening `<body>` tag.
+نصب آن خیلی ساده است. فقط این کد را داخل قالب خود کپی کنید و بلافاصله بعد از باز شدن تگ `<body>` قرار دهید .
 
 ```html
 <style>
@@ -182,21 +180,21 @@ Installation is dead simple. Just copy this code to your template right after th
 </a>
 ```
 
-# Banner Custom Web Component
+# بنر کاستوم وب کامپوننت
 
-Read more about the custom web component [here](Web-component/README.md).
+درباره کاستوم وب کامپوننت اینجا بیشتر بخوانید [here](Web-component/README.md).
 
-# How to Contribute
+# نحوه مشارکت
 
-Contributions to this project are welcome! If there is anything you would like to add to this repository, click [here](CONTRIBUTING.md) for contribution guidelines.
+از همکاری های شما در این پروژه استقبال میکنیم!اگر چیزی بود که دوست داشتید به این مخزن اضافه کنید, کلیک [here](CONTRIBUTING.md) برای خط مشی همکاری.
 
-# Troubleshooting
+# عیب یابی
 
-**If the banner doesn't appear on your website?**    
-*Solution:* Double check and make sure that you inserted the desired HTML code immediately following the opening `<body>` tag. Then, check for any conflicting CSS errors in styling.
+**اگر بنر در سایت شما نمایش داده نمیشد؟**    
+*راه حل:*دوباره بررسی کنید و مطمئن شوید که شما تکه کد کامل HTML را دقیقا بلافاصله بعد از باز شدن تگ`<body>` قرار دادید. بعد از آن در صورت وجود مشکل ارور های CSS را بررسی کنید .
 
 **اگر متن بنر خوانا نیست؟**    
-*راه حل:* Locate the pasted HTML code and edit the CSS properties for color of text and background to improve contrast.
+*راه حل:* کد HTML جایگذاری شده را پیدا کنید و ویژگی‌های CSS مربوط به رنگ متن و پس‌زمینه را برای بهبود کنتراست ویرایش کنید.
 
 
 # استفاده شده توسط
