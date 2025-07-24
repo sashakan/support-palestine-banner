@@ -1,40 +1,39 @@
 [![StandWithPalestine](https://github.com/Safouene1/support-palestine-banner/blob/master/StandWithPalestine.svg)](https://github.com/Safouene1/support-palestine-banner)
 
-# Support Palestine Banners
+# بنر حمایت از فلسطین
 
-Welcome to the Support Palestine Banner project! This repository contains a multitude of emblems to aid in showing support for Palestine on the web -- including website banners, ReadMe Banners and Github Badges -- that can be used by OSS projects to spread the word, support the cause, and help Palestine in this disastrous situation.
+این مخزن در برگیرنده چند نوع بنر فلسطین برای نمایش در سایت شما است که کد آن به راحتی قابل استفاده میباشد و فقط کافی است آن را کپی و در وبسایت خود جایگذاری کنید.
 
-# Table of Contents
-1. [How to Use](https://github.com/Safouene1/support-palestine-banner#how-to-use)
-2. [Badges and Banners](https://github.com/Safouene1/support-palestine-banner#badges-and-banners)
-3. [Banner Components for React, NextJs 13, Vue (V2 & V3) with Tailwind](https://github.com/Safouene1/support-palestine-banner#banner-components-for-react-nextjs-13-vue-v2--v3-with-tailwind)
-4. [Website Banner Installation](https://github.com/Safouene1/support-palestine-banner#website-banner-installation)
-5. [Banner Custom Web Component](https://github.com/Safouene1/support-palestine-banner#banner-custom-web-component)
-6. [How to Contribute](https://github.com/Safouene1/support-palestine-banner#how-to-contribute)
-7. [Troubleshooting](https://github.com/Safouene1/support-palestine-banner#troubleshooting)
-8. [Used By](https://github.com/Safouene1/support-palestine-banner#used-by)
-9. [License](https://github.com/Safouene1/support-palestine-banner#license)
+# جدول محتواها
+1. [روش استفاده](https://github.com/Safouene1/support-palestine-banner#how-to-use)
+2. [بج و بنر ها](https://github.com/Safouene1/support-palestine-banner#badges-and-banners)
+3. [کامپوننت بنر برای React, NextJs 13, Vue (V2 & V3) with Tailwind](https://github.com/Safouene1/support-palestine-banner#banner-components-for-react-nextjs-13-vue-v2--v3-with-tailwind)
+4. [نصب بنر وبسایت](https://github.com/Safouene1/support-palestine-banner#website-banner-installation)
+5. [وب کامپوننت های دیگر بنر](https://github.com/Safouene1/support-palestine-banner#banner-custom-web-component)
+6. [نحوه همکاری](https://github.com/Safouene1/support-palestine-banner#how-to-contribute)
+7. [عیب یابی](https://github.com/Safouene1/support-palestine-banner#troubleshooting)
+8. [استفاده شده توسط](https://github.com/Safouene1/support-palestine-banner#used-by)
+9. [لایسنس](https://github.com/Safouene1/support-palestine-banner#license)
 
-# How to Use
+# نحوه استفاد
 
-**To include the shown support banners for usage in your own project--**
+**آموزش استفاده از بنر حمایت از فلسطین در پروژه های شما--**
 
-1. Locate the specific support banner you would like to utilize from the "Badges and Banners" section below.
+1. بنری که دوست دارید رو از قسمت زیر انتخاب کنید.
   
-2. Copy and paste the selected banner's associated Markdown code into your README file and/or any file that supports Markdown in your project.
+2. کد بنر مورد انتخاب را در پروژه خود داخل فایل README یا هر فایلی که Markdown را پشتیبانی میکنید کپی پیست کنید.
 
-3. To include the website banner, please make sure to copy the HTML snippet from the "Website Banner Installation" section and paste it right after the opening `<body>` tag of your project's HTML file.
+3. برای نمایش بنر در سایت, please make sure to copy the HTML snippet from the "Website Banner Installation" section and paste it right after the opening `<body>` تگ در فایلHTML e.
 
-4. If you would like to customize the link in the support banner, simply replace the existing link with your desired link.
+4.اگر دوست دارید لینک های داخل بنر پشتیبانی رو شخصی سازی کنید, به راحتی لینک خود را جایگزین لینک قبلی داخل کد کنید.
    
-5. The banner should display immediately after changes are saved. Please see "Troubleshooting" section below and/or reach out if there are any issues with viewing.
-   
+5. بنر بلافاصله بعد از ذخیره تغییرات باید نمایش داده شود. لطفا در صورت وقوع مشکل از "Troubleshooting" در زیر بازدید کنید.
 
-# Badges and Banners
+# بج ها و بنرها
 
-### Badge Banner
+### بج بنر
 
-[![StandWithPalestine](https://github.com/Safouene1/support-palestine-banner/blob/master/StandWithPalestine.svg)](./Markdown-pages/Support.md)
+[![با فلسطین میمانیم](https://github.com/Safouene1/support-palestine-banner/blob/master/StandWithPalestine.svg)](./Markdown-pages/Support.md)
 
 ```md
 [![StandWithPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/StandWithPalestine.svg)](https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md)
@@ -66,22 +65,22 @@ Welcome to the Support Palestine Banner project! This repository contains a mult
 
 ![example images desktop light mode](React-Components/example-images/desktop-light-mode.png)
 
-These components out of the box supports
+این کامپوننت ها بیرون باکس پشتیبانی هستند
 
-|     | Features                    |
+|     | قابلیت ها                    |
 | --- | --------------------------- |
-| ✅  | JavaScript                  |
-| ✅  | TypeScript                  |
-| ✅  | Server Components           |
-| ✅  | Responsive                  |
+| ✅  | جاوا اسکریپت                 |
+| ✅  | تایپ اسکریپت                 |
+| ✅  | کامپوننت های سرور           |
+| ✅  | ریسپانسیو                |
 | ✅  | Closeable                   |
 | ✅  | Position Sticky or Relative |
 
-If you are not using Tailwind, import this CSS file: [banner.css](React-Components/banner.css)
+اگر شما از Tailwind استفاده نمیکنید, این فایل Css را درون ریزی کنید: [banner.css](React-Components/banner.css)
 
-Components can be found [here](https://github.com/Safouene1/support-palestine-banner/tree/master/React-Components)
+کامپوننت ها اینجا یافت میشوند [here](https://github.com/Safouene1/support-palestine-banner/tree/master/React-Components)
 
-# Website Banner Installation
+# نصب بنر وبسایت
 
 Use this snippet to show your support for Palestinians on the top of your website. Installing it takes minutes.
 
@@ -196,11 +195,11 @@ Contributions to this project are welcome! If there is anything you would like t
 **If the banner doesn't appear on your website?**    
 *Solution:* Double check and make sure that you inserted the desired HTML code immediately following the opening `<body>` tag. Then, check for any conflicting CSS errors in styling.
 
-**If the banner's text is not readable?**    
-*Solution:* Locate the pasted HTML code and edit the CSS properties for color of text and background to improve contrast.
+**اگر متن بنر خوانا نیست؟**    
+*راه حل:* Locate the pasted HTML code and edit the CSS properties for color of text and background to improve contrast.
 
 
-# Used By
+# استفاده شده توسط
 
 - [satr14's corner](https://new.sx9.is-a.dev/)
 
@@ -216,5 +215,5 @@ Contributions to this project are welcome! If there is anything you would like t
 
 - [Bixat.dev](https://bixat.dev)
 
-# License
-This project is currently licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+# لایسنس
+این پروژه هم اکنون تحت لایسنس MITهست. برای جزئیات این فایل را ببینید. [LICENSE](LICENSE) .
